@@ -1,0 +1,81 @@
+h1 {
+  font-family: helvetica;
+  font-weight: bold;
+}
+
+#videoElement {
+  width: 640px;
+	height: 480px;
+  background-color: #667;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.col-12 {
+  text-align: center;
+}
+
+canvas {
+  opacity: 0%;
+  left: 50%; 
+  transform: translate(-50%,0) scaleX(-1); 
+  position: absolute; 
+  z-index: 1;
+}
+
+#stop {
+  opacity: 0%;
+  position: absolute;
+  left: -1000px;
+}
+
+#download {
+  opacity: 0%;
+  position: absolute;
+  left: -1000px; 
+}
+
+#directions {
+  color: #28a746;
+  font-size: 30px;
+
+
+}
+
+p {
+  text-align: center
+}
+
+a {
+  color:  #28a746;
+}
+
+li a {
+  color:  #28a746;
+  font-weight: bold;
+}
+
+li a:hover{
+  color: black;
+}
+
+.zoomInstructions {
+  margin: 0 auto; 
+  width: 50%;
+}
+
+.zoomInstructions a {
+  color:  #28a746;
+  text-decoration: underline;
+
+}
+.zoomInstructions a:hover {
+  color:  black;
+}
+
+footer {
+  margin: 0 auto;
+  width: 50%;
+}
+
+
